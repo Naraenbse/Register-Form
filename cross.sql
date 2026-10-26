@@ -11,7 +11,7 @@ INSERT INTO customer VALUES
 (3, 'zoro', 21, 88888);
 
 CREATE TABLE orders (
-    order_id INT,
+    order_id INT,git push -u origin main
     price INT
 );
 
