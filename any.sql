@@ -16,7 +16,7 @@ CREATE TABLE Students1 (
          (7,'USOPP','CSE',19,70);
 
 SELECT * FROM Students1
-     WHERE marks > ANY (
+     WHERE marks > Any (
      SELECT marks 
      FROM Students1
      WHERE marks =75
