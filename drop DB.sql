@@ -6,8 +6,8 @@
      number INT
  );
 INSERT INTO test1 VALUES
-    (1,'ash',9999999),
-    (2,'pikachu',888888);
+    ('ash',20,9999999),
+    ('pikachu',25,888888);
 SELECT * FROM test1;
 
 DROP DATABASE test1;
