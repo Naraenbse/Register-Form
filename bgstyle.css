@@ -1,0 +1,65 @@
+
+body {
+    font-family: Arial;
+    background: linear-gradient(135deg, #173fac, #be56ad);
+    padding: 20px;
+}
+
+.container {
+    width: 450px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input:not([type="radio"]):not([type="checkbox"]):not([type="range"]) {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+}
+
+.error {
+    color: rgb(255, 0, 0);
+    font-size: 13px;
+    display: block;
+}
+
+button {
+    width: 48%;
+    padding: 10px;
+    margin-top: 20px;
+    background: #667eea;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#Preview {
+    max-width: 150px;
+    display: none;
+    margin-top: 10px;
+}
+
+#demo {
+    white-space: pre-line;
+    overflow-wrap: anywhere;
+    margin-top: 20px;
+}

@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+
+    <link rel="stylesheet" href="bgstyle.css">
+    <script src="jquery.min.js"></script>
+    <script src="jquery.validate.min.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h2>REGISTRATION FORM jquery</h2>
+
+    <form id="myForm">
+
+        <label></label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+        <span class="error"></span>
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <span class="error"></span>
+        <br><br>
+
+        <label>Date of Birth:</label>
+        <input type="date" id="date" name="date">
+        <span class="error"></span>
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password">
+        <span class="error"></span>
+        <br><br>
+
+        <label>Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter 10 digit number">
+        <span class="error"></span>
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <span class="error"></span>
+        <br><br>
+
+        <label>Telephone:</label>
+        <input type="tel" id="telephone" name="telephone" placeholder="Enter telephone number">
+        <span class="error"></span>
+        <br><br>
+
+        <label>Image:</label>
+        <input type="file" id="image" name="image" accept="image/*">
+        <span class="error"></span>
+        <img id="Preview" alt="Image preview">
+        <br><br>
+
+        <label>Joining Date:</label>
+        <input type="date" id="joiningDate" name="joiningDate">
+        <span class="error"></span>
+        <br><br>
+
+        <label>Time:</label>
+        <input type="time" id="time" name="time">
+        <span class="error"></span>
+        <br><br>
+
+        <label>Department:</label>
+        <input type="checkbox" name="department" value="CSE"> CSE
+        <input type="checkbox" name="department" value="IT"> IT
+        <input type="checkbox" name="department" value="BTECH"> BTECH
+        <input type="checkbox" name="department" value="ECS"> ECS
+        <input type="checkbox" name="department" value="MECH"> MECH
+        <span class="error"></span>
+        <br><br>
+
+        <label>Month:</label>
+        <input type="month" id="month" name="month">
+        <span class="error"></span>
+        <br><br>
+
+        <label>Range:</label>
+        <input type="range" id="range" min="0" max="100" value="50">
+        <span id="rangeValue">50</span>
+        <br><br>
+
+        <label>URL:</label>
+        <input type="url" id="url" name="url" placeholder="https://Hamilton.com">
+        <span class="error"></span>
+        <br><br>
+
+        <label>Week:</label>
+        <input type="week" id="week" name="week">
+        <span class="error"></span>
+        <br><br>
+
+        <label>Country:</label>
+        <select id="country" name="country">
+            <option value="">Select Country</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="CHINA">CHINA</option>
+        </select>
+        <span class="error"></span>
+        <br><br>
+
+        <label>State:</label>
+        <select id="state" name="state">
+            <option value="">Select State</option>
+        </select>
+        <span class="error"></span>
+        <br><br>
+
+        <label>City:</label>
+        <select id="city" name="city">
+            <option value="">Select City</option>
+            
+        </select>
+        <span class="error"></span>
+        <br><br>
+
+        <button type="submit">Submit</button>
+        <br><br>
+        <button type="reset">Reset</button>
+
+    </form>
+
+    <div id="demo"></div>
+
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
